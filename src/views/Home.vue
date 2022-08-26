@@ -35,6 +35,7 @@
         </a>
         <v-img :src="require('@/assets/pinia_logo.svg')" width="80" />
         <div class="mt-5">
+          <span>Vuex' succesor! The best library for state management.</span>
           <v-btn @click="userStore.incrementAge">Increase Age</v-btn>
           <pre>{{ userStore.currentUser }}</pre>
         </div>

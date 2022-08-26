@@ -3,11 +3,10 @@
 // Ex:
 // import User from "../resources/models/User";
 // let user = User(1, "name", "email", "url");
-export default function User(uid = null, name = null, email = null, photoURL = null) {
+export default function User(name = null, age = null, species = null) {
   return {
-    uid: uid,
     name: name,
-    email: email,
-    photoURL: photoURL,
+    age: age,
+    species: species,
   };
 }

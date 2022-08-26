@@ -1,12 +1,9 @@
 import { defineStore } from "pinia";
+import User from "../resources/models/User";
 
 export const useUserStore = defineStore("user", {
   state: () => ({
-    currentUser: {
-      name: "Bob",
-      age: 20,
-      species: "Human",
-    },
+    currentUser: User("Bob", 20, "Human"),
   }),
   actions: {
     incrementAge() {

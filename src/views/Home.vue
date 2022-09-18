@@ -33,7 +33,7 @@
         <a href="https://pinia.vuejs.org/">
           <h2>Pinia</h2>
         </a>
-        <v-img :src="require('@/assets/pinia_logo.svg')" width="80" />
+        <v-img :src="require('@/assets/pinia_logo.svg')" width="67" />
         <div class="mt-5">
           <span>Vuex' succesor! The best library for state management.</span>
           <v-btn @click="userStore.incrementAge" class="mt-5">Increase Age</v-btn>
